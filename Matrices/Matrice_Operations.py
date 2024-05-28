@@ -1,0 +1,11 @@
+import numpy as np
+matrice1 = np.array([[1,2,3],[4,5,6],[7,8,9]]) 
+matrice2 = np.array([[9,8,7],[6,5,4],[3,2,1]])
+addans = np.add(matrice1,matrice2)
+print(addans)
+subans = np.subtract(matrice1,matrice2)
+print(subans)
+mulans = np.matmul(matrice1,matrice2)
+print(mulans)
+transposeans1 = np.transpose(matrice1)
+print(transposeans1)
